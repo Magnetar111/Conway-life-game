@@ -69,7 +69,7 @@ while True: # Main program loop.
         else:
  # Everything else dies or stays dead:
             nextCells[x][y] = '*'
-    time.sleep(5) # Add a 1-second pause to reduce flickering.
+    time.sleep(5) # Add a 5-second pause to reduce flickering.
 
 
 
